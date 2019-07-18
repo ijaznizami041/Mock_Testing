@@ -1,5 +1,5 @@
-﻿using Xunit;
-
+using System;
+using Xunit;
 
 namespace Mock_Testing.Tests
 {
@@ -13,7 +13,7 @@ namespace Mock_Testing.Tests
             int expected = 7;
 
             //Act
-            int actual = program.Add(3,4);
+            int actual = program.Add(3, 4);
 
             //Assert
             Assert.Equal(expected, actual);
